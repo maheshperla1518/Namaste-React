@@ -1,14 +1,100 @@
-#heading{
-    color:blue;
+body{
+    margin: 0px;
+}
+.header{
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+    padding: 5px;
+    border: 2px solid lightgray;
+}
+.logo{
+    width: 125px;
+    height: 100px;
+    margin: 0px;
+    border-radius: 100px;
+}
+.nav-items{
+    /* border: 1px solid black; */
+    height: 60px;
+    margin: 20px 0px;
+}
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+}
+.nav-items > ul > li{
+    margin: 0px 90px;
+    font-size: 20px;
+}
+.cart-logo{
+    /* border: 1px solid black; */
+    height: fit-content;
+    margin: 30px 40px;
+}
+.logo-img{
+    height: 30px;
 }
 
-.para{
-    size: 16px;
-    color: blueviolet;
+.search-box{
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 5px;
+    margin: 15px 5px;
+    justify-content: center;
+}
+.search-box > input{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+}
+.search-box > h3{
+    font-size: 22px;
+    margin: 0px 10px;
 }
 
+.restcards-container{
+    /* border: 2px solid black; */
+    padding: 5PX;
+    display: flex;
+    flex-wrap: wrap;
+}
 
-
+.res-card{
+    border: 2px solid white;
+    height: 300px;
+    width: 200px;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin: 40PX;
+    border-radius: 10px;
+}
+.res-card:hover{
+    border: 2px solid gray;
+    cursor: pointer;
+    border-radius: 10px;
+}    
+.res-logo{
+    height: 150px;
+    width: 200px;
+}
+.res-card >  h3{
+    margin: 5px 5px;
+    font-size: 18px;
+}
+.res-card >  p{
+    margin: 5px 5px;
+    font-size: 12px;
+}
+.res-card >  h4{
+    margin: 5px 2px;
+}
+.res-card >  h5{
+    margin: 10px 5px;
+    font-size: 14px;
+    font-style: normal;
+}
 
 
 

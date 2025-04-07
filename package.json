@@ -1,7 +1,7 @@
 {
   "name": "react_namste",
   "version": "1.0.0",
-  "description": "this is shit",
+  "description": "this is learning",
   
   "scripts": {
     "start": "parcel index.html",
